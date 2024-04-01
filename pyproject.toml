@@ -1,0 +1,19 @@
+[tool.poetry]
+package-mode = false
+name = "holmes"
+
+[tool.poetry.dependencies]
+python = ">=3.10 <3.12"
+pydantic = "^2.6.4"
+pydantic-settings = "^2.2.1"
+pandas = "^2.2.1"
+openai = "^1.14.3"
+requests = "^2.31.0"
+ollama = "^0.1.8"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
